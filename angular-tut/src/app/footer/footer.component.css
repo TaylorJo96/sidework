@@ -1,0 +1,10 @@
+#footer{
+ background-color:rgb(127, 181, 255);
+ display:flex;
+ justify-content:space-around
+ 
+}
+p{
+    font-weight:bold;
+    font-size: large;
+}

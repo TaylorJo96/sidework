@@ -1,0 +1,62 @@
+#itemContents {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(254, 226, 197);
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.task {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 20px;
+    background-color: rgb(127, 181, 255);
+    border-style: inset;
+    border-color: rgb(209, 177, 143);
+
+}
+
+#table {
+
+    text-align: justify;
+
+}
+
+#info {
+    min-width: 200px;
+    background-color: rgb(196, 221, 255);
+
+}
+
+th {
+    padding-right: 10px;
+    background-color: rgb(248, 240, 232);
+}
+
+
+
+#description {
+    margin: 0px;
+    padding: 5px;
+}
+#nextDue{
+    font-weight: bolder;
+}
+#dates{
+    display: flex;
+    flex-direction:column;align-items: space-between;
+
+justify-content: inherit;
+}
+#dueDate{
+    color:darkred;
+}
+#nextDue{
+    display: flex;
+    justify-content: space-between
+    
+}

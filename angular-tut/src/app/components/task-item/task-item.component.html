@@ -1,0 +1,52 @@
+<div class="task">
+    <!-- <div id="task-des">{{task.description}}</div>
+<div id="task-info">
+log date: {{task.logDate}}
+log hours: {{task.logHours}}
+interval months: {{task.intervalMonths}}
+interval hours: {{task.intervalHours}}
+next due: {{task.nextDueDate}}
+
+</div> -->
+    <h3 id="description">
+
+
+        Task {{task.description}}
+    </h3>
+    <div id="itemContents">
+        <div id="dates">
+            <div id="logdate">
+                Last logged Date: {{task.formattedLogDate}}
+            </div>
+            <div id="nextDue">
+                Due Date: 
+                <div id="dueDate">
+                {{task.formattedNextDueDate}}
+                    </div>
+            </div>
+        </div>
+
+        <div id="info">
+            <tbody id="table">
+                <tr>
+                    <th scope="row">logHours:</th>
+                    <td> {{task.logHours}}</td>
+
+                </tr>
+
+                <tr>
+                    <th scope="row">interval Months:</th>
+                    <td> {{task.intervalMonths}}</td>
+
+                </tr>
+
+                <tr>
+                    <th scope="row">interval Hours:</th>
+                    <td> {{task.intervalHours}}</td>
+
+                </tr>
+            </tbody>
+        </div>
+
+    </div>
+</div>

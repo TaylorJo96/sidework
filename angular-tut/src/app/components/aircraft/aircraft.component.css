@@ -1,0 +1,53 @@
+#aircraft {
+    background-color: rgb(254, 226, 197);
+    margin: 0px;
+    padding: 5px;
+    border-style: inset;
+    border-color: rgb(209, 177, 143);
+}
+
+.items {
+    background: rgb(208, 223, 255);
+    padding-bottom: 10px;
+    /* max-width:80vw; */
+}
+
+
+#aircraftInfo {
+    font-size: medium;
+    text-transform: capitalize;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#taskButton {
+    border: none;
+    background-color: rgb(127, 181, 255);
+    padding: 10px;
+    margin-left: 10vh;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all .5s ease 0s;
+}
+
+#taskButton:hover {
+    background-color: rgb(58, 119, 204);
+    /* color:rgb(254, 226, 197); */
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 13px 9px -10px #000000; 
+    box-shadow: 0px 13px 9px -10px #000000;
+}
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #9dbeff;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: groove;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    width:50px;
+}
+

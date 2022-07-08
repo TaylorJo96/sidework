@@ -1,0 +1,29 @@
+<div class="plane">
+    <div class="items">
+        <h3 id="aircraft">Aircraft Id:{{aircraft.aircraftId}}</h3>
+        <div id="aircraftInfo">
+            daily hours:
+            <input #box1 type="number" class="css-input" defaultValue={{aircraft.dailyHours}} name="dailyhours" />
+            current hours:
+            <input #box2 type="number" class="css-input" defaultValue={{aircraft.currentHours}} name="currenthours" />
+            <button id="taskButton" class="btn" (click)="getHours(box1.value,box2.value)">View Calculated Tasks</button>
+        </div>
+
+        <app-task-item class="taskItems" *ngFor="let task of tasks" [task]="task">
+
+        </app-task-item>
+        <p>
+
+        </p>
+
+    </div>
+    <!-- <input 
+#box 
+type="text" 
+
+name="username"
+/>
+<button (click)="getValue(box.value)">click me</button>
+<p>
+    box value is: {{displayVal}}
+</p> -->
