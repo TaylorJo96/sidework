@@ -1,0 +1,10 @@
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\bin\Debug\ameritech solution.exe.config
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\bin\Debug\ameritech solution.exe
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\bin\Debug\ameritech solution.pdb
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech solution.csproj.AssemblyReference.cache
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech_solution.Form1.resources
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech_solution.Properties.Resources.resources
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech solution.csproj.GenerateResource.cache
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech solution.csproj.CoreCompileInputs.cache
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech solution.exe
+C:\Users\Taylor\source\repos\ameritech solution\ameritech solution\obj\Debug\ameritech solution.pdb
